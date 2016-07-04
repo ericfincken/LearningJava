@@ -19,6 +19,11 @@ public class MyfirstApplication {
     public static void main(String[] args) {
         // TODO code application logic here 
         System.out.print(output);
+        int number1;
+        number1 = 3;
+        double number2;
+        number2 = Math.pow(number1,2);
+        System.out.print(number2);
         
     }
     
