@@ -10,13 +10,16 @@ package myfirstapplication;
  * @author Fincken
  */
 public class MyfirstApplication {
-    String output = "Hello World";
+    static String output = "Hello World";
+  
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO code application logic here 
+        System.out.print(output);
+        
     }
     
 }
