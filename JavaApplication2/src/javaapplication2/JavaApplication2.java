@@ -24,7 +24,7 @@ public class JavaApplication2 {
         double myAvg = average(a, b, c, d, e);
         System.out.print(myAvg);
     }
-   private static double average(int a, int b, int c, int d, int e){
+   private static double average(double a, double b, double c, double d, double e){
        return (a + b + c + d + e)/5;
    } 
 }
