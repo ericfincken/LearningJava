@@ -23,7 +23,7 @@ public class JavaApplication2 {
         e = 67;
         
     }
-   private static double average(){
-       return 0.0;
+   private static double average(int a, int b, int c, int d, int e){
+       return (a + b + c + d + e)/5;
    } 
 }
