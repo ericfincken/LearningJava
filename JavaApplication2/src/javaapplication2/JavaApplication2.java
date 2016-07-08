@@ -24,7 +24,11 @@ public class JavaApplication2 {
         double myAvg = average(a, b, c, d, e);
         System.out.print(myAvg);
     }
-   private static double average(double a, double b, double c, double d, double e){
-       return (a + b + c + d + e)/5;
+   private static double average(double[] doubleArray){
+      double sum = 0.0; 
+      for(int i = 0; i < doubleArray.length; i++){
+          sum += doubleArray[i];      
+      }
+      return sum / doubleArray.length;
    } 
 }
