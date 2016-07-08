@@ -21,7 +21,8 @@ public class JavaApplication2 {
         c = 39;
         d = 105;
         e = 67;
-        
+        double myAvg = average(a, b, c, d, e);
+        System.out.print(myAvg);
     }
    private static double average(int a, int b, int c, int d, int e){
        return (a + b + c + d + e)/5;
