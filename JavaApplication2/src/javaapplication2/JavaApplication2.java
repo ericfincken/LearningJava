@@ -15,7 +15,15 @@ public class JavaApplication2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int a,b,c,d,e; 
+        a = 6;
+        b = 74;
+        c = 39;
+        d = 105;
+        e = 67;
+        
     }
-    
+   private static double average(){
+       return 0.0;
+   } 
 }
