@@ -15,13 +15,15 @@ public class JavaApplication2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int a,b,c,d,e; 
+        double a,b,c,d,e; 
         a = 6;
         b = 74;
         c = 39;
         d = 105;
         e = 67;
-        double myAvg = average(a, b, c, d, e);
+        double[] mainArray = {a, b, c, d, e};
+        
+        double myAvg = average(mainArray);
         System.out.print(myAvg);
     }
    private static double average(double[] doubleArray){
