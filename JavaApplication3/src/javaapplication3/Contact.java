@@ -19,6 +19,7 @@ public class Contact {
     
     Contact(){
         firstName = lastName = homePhone = cellPhone = workPhone = "";
+ 
     }
     Contact(String fn, String ln){
         firstName = fn;
